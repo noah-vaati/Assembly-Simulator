@@ -1,18 +1,19 @@
 # Noah Redden, 7841009
 
-Compiling and Running
-===================
+# About
+
+This version adds a simulated hard drive using DMA. This takes the form of a file called `hd`. If there is no file called `hd`, it is generated at run time.
+
+ # Compiling and Running
+
 Using the `make` command will compile files into executable `simulator`.
 Can be run using `./simulator (compiled asm) (dat file)`
 
 `make clean` will remove the compiled simulator.
 
-Description
-===================
-DMA implementation on CPU simulator
 
-Sample Program
-===================
+# Sample Program
+
 Sample Program `testA3.asm` and accompanying `testA3.dat` are provided.
 The program initializes by moving values 0, 1, 2 to registers `r1`,`r2`,`r3`, respectively, to be used in DMA transfers.
 This program first writes to the hard drive the first 5 words (Except the first 3 which are reserved) in the data memory. 
