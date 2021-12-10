@@ -1,5 +1,3 @@
-# Noah Redden, 7841009
-
 # About
 
 This version adds a simulated hard drive using DMA. This takes the form of a file called `hd`. If there is no file called `hd`, it is generated at run time.
